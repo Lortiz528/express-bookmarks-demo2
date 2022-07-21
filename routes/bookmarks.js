@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 // Show
 router.get('/:id', (req, res) => {
-  console.log(req.params, bookmarks);
+  //console.log(req.params, bookmarks);
   res.json(bookmarks[req.params.id]);
 });
 
